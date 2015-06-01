@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3ED8CD7B70A9CC700F47198E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3E3EE552AC38B1AE25F2BC /* libPods.a */; };
-		C0304C8B1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0304C8A1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m */; };
 		C0F53E6F1B1B4963008EE461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E6E1B1B4963008EE461 /* main.m */; };
 		C0F53E721B1B4963008EE461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E711B1B4963008EE461 /* AppDelegate.m */; };
 		C0F53E751B1B4963008EE461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E741B1B4963008EE461 /* ViewController.m */; };
@@ -36,8 +35,6 @@
 		2EAD101A6AD27E32A72BC2F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4C3E3EE552AC38B1AE25F2BC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		602EBE06FB2435ED8C93BAF5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C0304C891B1B4B1C006DF5F8 /* PCityPM25InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCityPM25InfoViewController.h; sourceTree = "<group>"; };
-		C0304C8A1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCityPM25InfoViewController.m; sourceTree = "<group>"; };
 		C0F53E691B1B4963008EE461 /* PM25-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PM25-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F53E6D1B1B4963008EE461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0F53E6E1B1B4963008EE461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,8 +118,6 @@
 				C0F53E791B1B4964008EE461 /* Images.xcassets */,
 				C0F53E7B1B1B4964008EE461 /* LaunchScreen.xib */,
 				C0F53E6C1B1B4963008EE461 /* Supporting Files */,
-				C0304C891B1B4B1C006DF5F8 /* PCityPM25InfoViewController.h */,
-				C0304C8A1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m */,
 			);
 			path = "PM25-OC";
 			sourceTree = "<group>";
@@ -316,7 +311,6 @@
 				C0F53E6F1B1B4963008EE461 /* main.m in Sources */,
 				C0F53E991B1B49CE008EE461 /* TFHpple.m in Sources */,
 				C0F53E9B1B1B49CE008EE461 /* XPathQuery.m in Sources */,
-				C0304C8B1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m in Sources */,
 				C0F53E9A1B1B49CE008EE461 /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

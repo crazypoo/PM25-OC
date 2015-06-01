@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ED8CD7B70A9CC700F47198E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3E3EE552AC38B1AE25F2BC /* libPods.a */; };
+		C0304C8B1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0304C8A1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m */; };
+		C0F53E6F1B1B4963008EE461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E6E1B1B4963008EE461 /* main.m */; };
+		C0F53E721B1B4963008EE461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E711B1B4963008EE461 /* AppDelegate.m */; };
+		C0F53E751B1B4963008EE461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E741B1B4963008EE461 /* ViewController.m */; };
+		C0F53E781B1B4964008EE461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F53E761B1B4964008EE461 /* Main.storyboard */; };
+		C0F53E7A1B1B4964008EE461 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F53E791B1B4964008EE461 /* Images.xcassets */; };
+		C0F53E7D1B1B4964008EE461 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F53E7B1B1B4964008EE461 /* LaunchScreen.xib */; };
+		C0F53E891B1B4964008EE461 /* PM25_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E881B1B4964008EE461 /* PM25_OCTests.m */; };
+		C0F53E991B1B49CE008EE461 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E941B1B49CE008EE461 /* TFHpple.m */; };
+		C0F53E9A1B1B49CE008EE461 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E961B1B49CE008EE461 /* TFHppleElement.m */; };
+		C0F53E9B1B1B49CE008EE461 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F53E981B1B49CE008EE461 /* XPathQuery.m */; };
+		C0F53E9D1B1B49D9008EE461 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F53E9C1B1B49D9008EE461 /* libxml2.2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0F53E831B1B4964008EE461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0F53E611B1B4963008EE461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0F53E681B1B4963008EE461;
+			remoteInfo = "PM25-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EAD101A6AD27E32A72BC2F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3E3EE552AC38B1AE25F2BC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		602EBE06FB2435ED8C93BAF5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C0304C891B1B4B1C006DF5F8 /* PCityPM25InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCityPM25InfoViewController.h; sourceTree = "<group>"; };
+		C0304C8A1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCityPM25InfoViewController.m; sourceTree = "<group>"; };
+		C0F53E691B1B4963008EE461 /* PM25-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PM25-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F53E6D1B1B4963008EE461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F53E6E1B1B4963008EE461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0F53E701B1B4963008EE461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0F53E711B1B4963008EE461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0F53E731B1B4963008EE461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0F53E741B1B4963008EE461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0F53E771B1B4964008EE461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0F53E791B1B4964008EE461 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0F53E7C1B1B4964008EE461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0F53E821B1B4964008EE461 /* PM25-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PM25-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F53E871B1B4964008EE461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F53E881B1B4964008EE461 /* PM25_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PM25_OCTests.m; sourceTree = "<group>"; };
+		C0F53E931B1B49CE008EE461 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		C0F53E941B1B49CE008EE461 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		C0F53E951B1B49CE008EE461 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		C0F53E961B1B49CE008EE461 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		C0F53E971B1B49CE008EE461 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		C0F53E981B1B49CE008EE461 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		C0F53E9C1B1B49D9008EE461 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0F53E661B1B4963008EE461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F53E9D1B1B49D9008EE461 /* libxml2.2.dylib in Frameworks */,
+				3ED8CD7B70A9CC700F47198E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F53E7F1B1B4964008EE461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E176ACBA24807CD1DE3B9AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0F53E9C1B1B49D9008EE461 /* libxml2.2.dylib */,
+				4C3E3EE552AC38B1AE25F2BC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F53E601B1B4963008EE461 = {
+			isa = PBXGroup;
+			children = (
+				C0F53E6B1B1B4963008EE461 /* PM25-OC */,
+				C0F53E851B1B4964008EE461 /* PM25-OCTests */,
+				C0F53E6A1B1B4963008EE461 /* Products */,
+				D37CF6A5BF845CA6D97BC93F /* Pods */,
+				4E176ACBA24807CD1DE3B9AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0F53E6A1B1B4963008EE461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F53E691B1B4963008EE461 /* PM25-OC.app */,
+				C0F53E821B1B4964008EE461 /* PM25-OCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0F53E6B1B1B4963008EE461 /* PM25-OC */ = {
+			isa = PBXGroup;
+			children = (
+				C0F53E921B1B49CE008EE461 /* Hpple */,
+				C0F53E701B1B4963008EE461 /* AppDelegate.h */,
+				C0F53E711B1B4963008EE461 /* AppDelegate.m */,
+				C0F53E731B1B4963008EE461 /* ViewController.h */,
+				C0F53E741B1B4963008EE461 /* ViewController.m */,
+				C0F53E761B1B4964008EE461 /* Main.storyboard */,
+				C0F53E791B1B4964008EE461 /* Images.xcassets */,
+				C0F53E7B1B1B4964008EE461 /* LaunchScreen.xib */,
+				C0F53E6C1B1B4963008EE461 /* Supporting Files */,
+				C0304C891B1B4B1C006DF5F8 /* PCityPM25InfoViewController.h */,
+				C0304C8A1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m */,
+			);
+			path = "PM25-OC";
+			sourceTree = "<group>";
+		};
+		C0F53E6C1B1B4963008EE461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0F53E6D1B1B4963008EE461 /* Info.plist */,
+				C0F53E6E1B1B4963008EE461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0F53E851B1B4964008EE461 /* PM25-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0F53E881B1B4964008EE461 /* PM25_OCTests.m */,
+				C0F53E861B1B4964008EE461 /* Supporting Files */,
+			);
+			path = "PM25-OCTests";
+			sourceTree = "<group>";
+		};
+		C0F53E861B1B4964008EE461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0F53E871B1B4964008EE461 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0F53E921B1B49CE008EE461 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				C0F53E931B1B49CE008EE461 /* TFHpple.h */,
+				C0F53E941B1B49CE008EE461 /* TFHpple.m */,
+				C0F53E951B1B49CE008EE461 /* TFHppleElement.h */,
+				C0F53E961B1B49CE008EE461 /* TFHppleElement.m */,
+				C0F53E971B1B49CE008EE461 /* XPathQuery.h */,
+				C0F53E981B1B49CE008EE461 /* XPathQuery.m */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
+		D37CF6A5BF845CA6D97BC93F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EAD101A6AD27E32A72BC2F4 /* Pods.debug.xcconfig */,
+				602EBE06FB2435ED8C93BAF5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0F53E681B1B4963008EE461 /* PM25-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F53E8C1B1B4964008EE461 /* Build configuration list for PBXNativeTarget "PM25-OC" */;
+			buildPhases = (
+				174B45A6D332A8303A59F86F /* Check Pods Manifest.lock */,
+				C0F53E651B1B4963008EE461 /* Sources */,
+				C0F53E661B1B4963008EE461 /* Frameworks */,
+				C0F53E671B1B4963008EE461 /* Resources */,
+				C1E374344075620992255A9D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PM25-OC";
+			productName = "PM25-OC";
+			productReference = C0F53E691B1B4963008EE461 /* PM25-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0F53E811B1B4964008EE461 /* PM25-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F53E8F1B1B4964008EE461 /* Build configuration list for PBXNativeTarget "PM25-OCTests" */;
+			buildPhases = (
+				C0F53E7E1B1B4964008EE461 /* Sources */,
+				C0F53E7F1B1B4964008EE461 /* Frameworks */,
+				C0F53E801B1B4964008EE461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0F53E841B1B4964008EE461 /* PBXTargetDependency */,
+			);
+			name = "PM25-OCTests";
+			productName = "PM25-OCTests";
+			productReference = C0F53E821B1B4964008EE461 /* PM25-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0F53E611B1B4963008EE461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = P;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "邓杰豪";
+				TargetAttributes = {
+					C0F53E681B1B4963008EE461 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C0F53E811B1B4964008EE461 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C0F53E681B1B4963008EE461;
+					};
+				};
+			};
+			buildConfigurationList = C0F53E641B1B4963008EE461 /* Build configuration list for PBXProject "PM25-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0F53E601B1B4963008EE461;
+			productRefGroup = C0F53E6A1B1B4963008EE461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0F53E681B1B4963008EE461 /* PM25-OC */,
+				C0F53E811B1B4964008EE461 /* PM25-OCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0F53E671B1B4963008EE461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F53E781B1B4964008EE461 /* Main.storyboard in Resources */,
+				C0F53E7D1B1B4964008EE461 /* LaunchScreen.xib in Resources */,
+				C0F53E7A1B1B4964008EE461 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F53E801B1B4964008EE461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174B45A6D332A8303A59F86F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E374344075620992255A9D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0F53E651B1B4963008EE461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F53E751B1B4963008EE461 /* ViewController.m in Sources */,
+				C0F53E721B1B4963008EE461 /* AppDelegate.m in Sources */,
+				C0F53E6F1B1B4963008EE461 /* main.m in Sources */,
+				C0F53E991B1B49CE008EE461 /* TFHpple.m in Sources */,
+				C0F53E9B1B1B49CE008EE461 /* XPathQuery.m in Sources */,
+				C0304C8B1B1B4B1C006DF5F8 /* PCityPM25InfoViewController.m in Sources */,
+				C0F53E9A1B1B49CE008EE461 /* TFHppleElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F53E7E1B1B4964008EE461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F53E891B1B4964008EE461 /* PM25_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0F53E841B1B4964008EE461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0F53E681B1B4963008EE461 /* PM25-OC */;
+			targetProxy = C0F53E831B1B4964008EE461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0F53E761B1B4964008EE461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F53E771B1B4964008EE461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0F53E7B1B1B4964008EE461 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F53E7C1B1B4964008EE461 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0F53E8A1B1B4964008EE461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0F53E8B1B1B4964008EE461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0F53E8D1B1B4964008EE461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAD101A6AD27E32A72BC2F4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PM25-OC",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "PM25-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-SVProgressHUD\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0F53E8E1B1B4964008EE461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602EBE06FB2435ED8C93BAF5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PM25-OC",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "PM25-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-SVProgressHUD\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0F53E901B1B4964008EE461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PM25-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PM25-OC.app/PM25-OC";
+			};
+			name = Debug;
+		};
+		C0F53E911B1B4964008EE461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PM25-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PM25-OC.app/PM25-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0F53E641B1B4963008EE461 /* Build configuration list for PBXProject "PM25-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F53E8A1B1B4964008EE461 /* Debug */,
+				C0F53E8B1B1B4964008EE461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F53E8C1B1B4964008EE461 /* Build configuration list for PBXNativeTarget "PM25-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F53E8D1B1B4964008EE461 /* Debug */,
+				C0F53E8E1B1B4964008EE461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F53E8F1B1B4964008EE461 /* Build configuration list for PBXNativeTarget "PM25-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F53E901B1B4964008EE461 /* Debug */,
+				C0F53E911B1B4964008EE461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0F53E611B1B4963008EE461 /* Project object */;
+}
